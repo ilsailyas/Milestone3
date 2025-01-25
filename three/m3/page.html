@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Editable STUDENT FORM</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body id="center">
+    <h1>
+       STUDENT FORM
+    </h1>      
+    <form id="Candinate-Form">
+        <fieldset>
+            <legend>Candinate Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter Candinate Name">
+            <label for="Fname"> Father Name:</label>
+            <input type="text" id="Fname" placeholder="Father Name">
+            <label for="Mname">Mother Name:</label>
+            <input type="text" id="Mname" placeholder="Mother Name">
+                      
+            <label for="cnic"> Candinate CNIC NO:</label>
+            <input type="text"id="cnic"placeholder="Candinate CNIC Number"> 
+            <label for="cnic">F:CNIC No:</label>
+            <input type="text" id="cnic" placeholder="Father CNIC Number">
+            <label for="cnic"> M:CNIC No:</label>
+            <input type="text"id="cnic" placeholder="Mother CNIC Number">
+            <label for="birth"> Date Of Birth:</label>
+            <input type="text"id="birth" placeholder="Student Date Of Birth">
+            <label for="no">Cell Number:</label>
+            <input type="text" id="no" placeholder="Cell Number">
+            <label for="hno">H.No:</label>
+            <input type="text" id="hno" placeholder="Enter Your House Address">
+        </fieldset>
+        <fieldset>
+            <legend>Company Details</legend>
+            <label for="company ">Last Company Name:</label>
+            <input type="text" id="company" placeholder="Mention Here">
+            <label for="field">Job-Post:</label>
+            <input type="text"id="field" placeholder="Post Mention">
+            <label for="exp"> Experince</label>
+            <input type="text" id="exp" placeholder="Job Experinec">
+        </fieldset>
+         <fieldset>
+            <legend>Inter Marksheet Photocopy</legend>
+            <label for="doc"></label>
+            <textarea id="doc" placeholder="Put Your Marksheet" rows="10"></textarea>
+         </fieldset>
+         <fieldset>
+            <legend>Matric Marksheet Photocopy</legend>
+            <label for="copy"></label>
+            <textarea  id="copy" placeholder="put Your Marksheet" rows="10"></textarea>
+         </fieldset>
+         <fieldset>
+            <legend>CV</legend>
+            <label for="cv"></label>
+             <textarea id="cv" placeholder="Put your CV" rows="10"></textarea>
+         </fieldset>
+         <fieldset>
+            <label for="sig">Candinate Signature</label>
+            <input type="text" id="sig" placeholder="Candinate Signature">
+         </fieldset>
+         <fieldset>
+            <label for="one">Manager Signature</label>
+            <input type="text" id="one" placeholder="Manager Signature">
+         </fieldset>
+         <button id="Submit">Submit</button>
+         <div id="Candinate-display" contenteditable="true">
+
+         </div>
+         <script src="page.js"></script>
+    </form> 
+</body>
+</html>

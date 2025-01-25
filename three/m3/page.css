@@ -1,0 +1,29 @@
+h1 {
+    
+    color: black;
+}
+fieldset {
+    margin: 0px;
+    padding: 10px;
+    width: 65%;
+    border:5px solid rgb(0, 145, 255);
+}
+.button {
+    color: black;
+    border: 5px solid;
+    border-radius:10px;
+}
+button:hover {
+    background-color: aquamarine;
+
+}
+#Candinate-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(228, 242, 255);
+    box-shadow: 0 4px 8px rgba (0, 0, 0, 0.5);
+
+}
